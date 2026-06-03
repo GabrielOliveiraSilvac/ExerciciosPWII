@@ -46,16 +46,7 @@ dados3.forEach (ele3 => {
     percentualTimes.push(numeroOg)
 })
 
-//Criei Para cada 1 pos estava dando erro nos graficos
-
-//codigo do grafico
-//mudar as labels e tranformar em vetor com os dados da imprementação
-
-
-
-//TRANSFORMAR TANTO A CRIAÇÃO DO GRAFICO QUANTO A IMPREMENTAÇÃO EM FUNCTION!
-
-//função async precisa do await pra retornar primeiro sabia?
+//Criei o Preenchimento Para cada 1 pos estava dando erro nos graficos
 
 //Grafico Com o Percentual Dos Times
 new Chart(ctx3, {
