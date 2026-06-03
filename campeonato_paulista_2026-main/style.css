@@ -1,0 +1,79 @@
+body{
+    background-color: rgb(7, 2, 53);
+}
+
+h1{
+    text-align: center;
+    color: rgb(255, 255, 255);
+}
+h2{
+    font-size: 17px;
+    text-align: center;
+    color: rgb(255, 255, 255);
+}
+.tudo1{
+    display: flex;
+}
+.tudo2{
+    display: flex;
+}
+.container1{
+    width: 50rem;
+    height: 20rem;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    max-width: 400px;
+    margin: auto;
+    background-color: rgb(15, 17, 82);
+    border-radius: 15px;
+    box-shadow: 0rem rgb(rgb(0, 0, 0));
+    padding: 30px;
+    margin-top: 30px;
+    position: relative;
+}
+
+.container2{
+    width: 50rem;
+    height: 20rem;
+    display: flex;
+    justify-content: center;
+    max-width: 400px;
+    margin: auto;
+    background-color: rgb(15, 17, 82);
+    border-radius: 15px;
+    box-shadow: 0rem rgb(rgb(0, 0, 0));
+    padding: 40px;
+    margin-top: 30px;
+    position: relative;
+}
+
+.container3{
+    width: 50rem;
+    height: 20rem;
+    display: flex;
+    justify-content: center;
+    max-width: 400px;
+    margin: auto;
+    background-color: rgb(15, 17, 82);
+    border-radius: 15px;
+    box-shadow: 0rem rgb(rgb(0, 0, 0));
+    padding: 40px;
+    margin-top: 30px;
+    position: relative;
+}
+
+.container4{
+    width: 50rem;
+    height: 20rem;
+    display: flex;
+    justify-content: center;
+    max-width: 400px;
+    margin: auto;
+    background-color: rgb(15, 17, 82);
+    border-radius: 15px;
+    box-shadow: 0rem rgb(rgb(0, 0, 0));
+    padding: 40px;
+    margin-top: 30px;
+    position: relative;
+}
