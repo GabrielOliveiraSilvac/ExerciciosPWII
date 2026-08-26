@@ -7,6 +7,7 @@ import{ buscarLimite } from './DAO/limite_credito/buscar_limite.js'
 import { buscarProduto } from './DAO/produto/buscar_produto.js'
 import { buscarPedido } from './DAO/pedido/buscar_pedido.js'
 import { buscarPedidoProduto } from './DAO/pedido_produto/buscar_pedido-produto.js'
+import { viewEndereco } from './DAO/endereco/view_endereco.js'
 
 const app = express()
 
@@ -39,7 +40,7 @@ app.get('/endereco', async (req, res) => {
 
 // Buscar Endereços
 app.get('/enderecos', async (req, res) => {
-    let enderecos = await buscarEndereco();
+    let enderecos = await viewEndereco();
     res.json(enderecos)
 })
 
