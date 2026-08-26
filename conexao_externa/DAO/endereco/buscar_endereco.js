@@ -3,7 +3,8 @@ import {conexao} from '../conexao.js'
 
 async function buscarEndereco(){
   console.log('DAO de CLIENTE')
-    const sql = `SELECT * FROM Endereco;`
+    const sql = `Create View vwBuscarEndereco As
+    SELECT nome, cidade FROM Endereco INNER JOIN Cliente ON Endereco.id_endereco = Cliente.id_endereco`
     
     const conn = await conexao()
     try {
