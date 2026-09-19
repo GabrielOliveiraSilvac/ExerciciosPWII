@@ -1,7 +1,7 @@
 import {conexao} from '../conexao.js'
 
 async function buscarPedido(id_cliente){
-    const sql = `SELECT * FROM Pedido WHERE id_cliente = ?`
+    const sql = `SELECT * FROM Pedido`
     
     const conn = await conexao()
     
